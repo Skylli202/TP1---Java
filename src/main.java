@@ -1,8 +1,21 @@
+/**
+ * 
+ */
+
+/**
+ * @author Skylli
+ *	TP1 Java
+ */
 public class main {
 
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("hello world");
+		
+		Ville Dijon = new Ville("Dijon", 40.41, 375831);
+		System.out.println(Dijon);
 	}
 
 }
