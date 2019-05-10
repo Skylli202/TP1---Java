@@ -1,5 +1,3 @@
-import javafx.scene.control.Alert;
-
 /**
  * 
  */
@@ -37,7 +35,7 @@ public class Departement {
 	
 	// 3)
 	public String toString() {
-		String str = "";
+		String str = "Villes du département " + this.mNom + "("+ this.mNumero +") : \n";
 		
 		for(int i=0; i<this.mNbVillesSaisies; i++) {
 			str += this.mTabVille[i].toString() + "\n";
