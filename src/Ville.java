@@ -55,4 +55,35 @@ public class Ville {
 		return this.getNom() + ", " + this.getSuperficie() + " kilomètres carrés, pour "
 				+ this.getSuperficie() + " habitants";
 	}
+	
+	// Ex4
+	boolean estIdentiqueA(Ville ville) {
+		if(this.mNom != ville.mNom)
+			return false;
+		
+		if(this.mSuperficie != ville.mSuperficie)
+			return false;
+		
+		if(this.mPopulation != ville.mPopulation)
+			return false;
+		
+		return true;
+	}
+	
+	/*
+	 * Cette method doit être static car elle sera appelé sans instance de Ville devant.
+	 * Il faudra donc précisé Obj.method() et non Dijon.method()...
+	 * */
+	static boolean sontIdentiques(Ville ville1, Ville ville2) {
+		if(ville1.mNom != ville2.mNom)
+			return false;
+		
+		if(ville1.mSuperficie != ville2.mSuperficie)
+			return false;
+		
+		if(ville1.mPopulation != ville2.mPopulation)
+			return false;
+		
+		return true;
+	}
 }

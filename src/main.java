@@ -39,6 +39,15 @@ public class main {
 		// 5
 		System.out.println(coteDor);
 		System.out.println(saoneEtLoire);
+		
+		System.out.println(Dijon.estIdentiqueA(Quetigny));
+		System.out.println(Ville.sontIdentiques(Dijon,Quetigny));
+		
+		// Ex 4
+		/* 1)
+		 * Toutes les instances de Ville porte désormais le même nom,
+		 * qui se trouve être le dernier nom set
+		 * */
 				
 		/*
 		Ville Dijon = new Ville("Dijon", 40.41, 375831);
