@@ -40,8 +40,8 @@ public class main {
 		System.out.println(coteDor);
 		System.out.println(saoneEtLoire);
 		
-		System.out.println(Dijon.estIdentiqueA(Quetigny));
-		System.out.println(Ville.sontIdentiques(Dijon,Quetigny));
+		System.out.println(Dijon.estIdentiqueA(Dijon));
+		System.out.println(Ville.sontIdentiques(Dijon,Dijon));
 		
 		// Ex 4
 		/* 1)
